@@ -1,0 +1,40 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* font-family: 'Comfortaa', sans-serif;
+font-family: 'Righteous', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comfortaa', sans-serif;
+}
+
+h1 {
+  color: #2740e5;
+  font-family: 'Righteous', sans-serif;
+}
+
+h2 {
+  font-family: 'Righteous', sans-serif;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.backgroundPink {
+  background-color: #ffc4fd;
+}
+
+.text-blue {
+  color: #2740e5;
+}
+
+.text-dark {
+  color: #282828;
+}
