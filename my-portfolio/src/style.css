@@ -10,31 +10,118 @@ font-family: 'Roboto Mono', monospace; */
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+nav {
+  font-family: 'Righteous', sans-serif;
+}
+
 body {
   font-family: 'Comfortaa', sans-serif;
+  width: 100%;
 }
 
 h1 {
   color: #2740e5;
-  font-family: 'Righteous', sans-serif;
-}
-
-h2 {
-  font-family: 'Righteous', sans-serif;
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .backgroundPink {
   background-color: #ffc4fd;
 }
 
-.text-blue {
+.backgroundDarkGreen {
+  background-color: #005840;
+}
+
+.backgroundBlue {
+  background-color: #2740e5;
+}
+
+.textPink {
+  color: #ffc4fd;
+}
+
+.textBlue {
   color: #2740e5;
 }
 
-.text-dark {
+.textGreen {
+  color: #cdf546;
+}
+
+.textDarkGreen {
+  color: #005840;
+}
+
+.textDark {
   color: #282828;
 }
+
+.iconArrowDown {
+  background-image: url('./assets/down-arrow-blue.png');
+  content: ' ';
+  background-repeat: no-repeat;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-size: contain;
+}
+
+.iconArrowDown:hover {
+  background-image: url('./assets/down-arrow-pink.png');
+  content: ' ';
+  background-repeat: no-repeat;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-size: contain;
+}
+
+.iconDownload {
+  background-image: url('./assets/download.png');
+  content: ' ';
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  background-size: contain;
+}
+
+.iconArrowRight {
+  background-image: url('./assets/arrow-right-white.png');
+  content: ' ';
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  background-size: contain;
+}
+
+.iconArrowRight:hover {
+  background-image: url('./assets/arrow-right-white.png');
+  content: ' ';
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  background-size: contain;
+}
+
+.link {
+  color: #2740e5;
+}
+
+.link:hover {
+  color: #ffc4fd;
+}
+
+@media (min-width: 576px) {
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 992px) {}
