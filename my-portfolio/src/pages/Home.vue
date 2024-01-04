@@ -8,7 +8,7 @@ import Projects from '../components/Projects.vue';
 
 <template>
     <section class="backgroundPink">
-        <div class="h-screen flex items-center justify-center flex-col">
+        <div class="h-screen flex items-center justify-center flex-col pt-8 max-w-3xl mx-auto">
             <h1 class="uppercase text-6xl md:text-9xl mb-4">
                 <span class="block text-4xl font-bold text-left">I'm a</span>
                 <span class="block">Full Stack</span> Developer
