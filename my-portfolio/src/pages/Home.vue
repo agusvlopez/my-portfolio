@@ -15,7 +15,7 @@ import Projects from '../components/Projects.vue';
             </h1>
 
             <!-- Enlaces a LinkedIn y GitHub -->
-            <div class="flex space-x-6 text-xl font-bold">
+            <div class="flex space-x-8 text-xl font-bold">
                 <a href="https://www.linkedin.com/in/agustina-victoria-lopez/" class="textBlue relative group">
                     LinkedIn
                     <span
@@ -31,7 +31,9 @@ import Projects from '../components/Projects.vue';
                         class="absolute bottom-0 left-0 right-0 h-0.5 bg-white transform origin-left scale-x-50 group-hover:scale-x-100 transition-transform duration-300"></span>
                 </a>
             </div>
+            <p class="pt-6 font-semibold textBlue animate__animated animate__fadeIn">Contact: agusvlopez@gmail.com</p>
         </div>
+
     </section>
 </template>
 

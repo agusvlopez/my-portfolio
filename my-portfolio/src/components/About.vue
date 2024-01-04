@@ -6,7 +6,7 @@ import Navbar from './Navbar.vue';
 
 <template>
     <div class="md:h-screen flex items-center justify-center bg-white textDark max-w-3xl mx-auto">
-        <div class="p-6">
+        <div class="p-6 animate__animated animate__fadeIn">
             <h1 class="uppercase text-3xl md:text-6xl mb-4">Hi!</h1>
             <p class="mb-2">I'm <span class="font-bold">Agustina López.</span></p>
             <p>A <span class="font-bold">Web Design and Development</span> student at Da Vinci School in Buenos Aires,

@@ -6,6 +6,7 @@ import imagen4 from '../assets/imagen4.jpg';
 import trainingApp from '../assets/trainingapp-laptop.jpg';
 import traniCeramica from '../assets/traniceramica-laptop.jpg';
 import apiWeather from '../assets/apiweather-mobile.jpg';
+import nutri from '../assets/nutri-laptop.jpg';
 import downArrow from '../assets/down-arrow-blue.png'
 import Navbar from './Navbar.vue';
 
@@ -18,7 +19,7 @@ import Navbar from './Navbar.vue';
             <h1 class="uppercase text-5xl md:text-9xl textBlue block"><span class="block text-5xl font-bold text-left">My
                     Latest</span> Projects
             </h1>
-            <div class="">
+            <div class="animate__animated animate__fadeIn">
                 <a href="#allProjects" class="cursor-pointer">
                     <span class="iconArrowDown inline-block absolute bottom-8 right-8 transition"></span>
                     <!-- <img :src="downArrow" alt="" class="w-14 pt-8 mx-auto absolute bottom-8 right-8"> -->
@@ -67,8 +68,18 @@ import Navbar from './Navbar.vue';
                     </div>
                 </a>
             </div>
-            <div class="flex items-center justify-center">
-                <img :src=imagen4 alt="Imagen 4" class="w-full h-full object-cover">
+            <div class="flex items-center justify-center relative group">
+                <a href="https://github.com/agusvlopez/uribe-mercedes_lopez-agustina">
+                    <img :src="nutri" alt="Laptop con la página de 'Nutricionista Ana Perez'"
+                        class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
+                    <div
+                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div>
+                            <h3 class="text-white text-3xl font-bold uppercase">Nutricionista Ana Perez</h3>
+                            <p class="text-white text-lg text-center">Laravel - Bootstrap</p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
