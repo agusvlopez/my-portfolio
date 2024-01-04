@@ -31,7 +31,7 @@ import Navbar from './Navbar.vue';
         <div class="grid grid-cols-2 grid-rows-2 gap-2 mt-2 mb-2">
             <div class="flex items-center justify-center relative group">
                 <a href="https://training-app-orpin.vercel.app/#/">
-                    <img :src="trainingApp" alt="Laptop con la página de Training App"
+                    <img :src="trainingApp" alt="Laptop with Training App page"
                         class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
                     <div
                         class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -44,7 +44,7 @@ import Navbar from './Navbar.vue';
             </div>
             <div class="flex items-center justify-center relative group">
                 <a href="https://trani-ceramica.000webhostapp.com/">
-                    <img :src="traniCeramica" alt="Laptop con la página de Trani Cerámica"
+                    <img :src="traniCeramica" alt="Laptop with Trani Cerámica page"
                         class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
                     <div
                         class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -57,7 +57,7 @@ import Navbar from './Navbar.vue';
             </div>
             <div class="flex items-center justify-center relative group">
                 <a href="https://api-weather-theta.vercel.app/">
-                    <img :src="apiWeather" alt="Móvil con la página de Api Weather"
+                    <img :src="apiWeather" alt="Mobile with Api Weather page"
                         class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
                     <div
                         class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -70,7 +70,7 @@ import Navbar from './Navbar.vue';
             </div>
             <div class="flex items-center justify-center relative group">
                 <a href="https://github.com/agusvlopez/uribe-mercedes_lopez-agustina">
-                    <img :src="nutri" alt="Laptop con la página de 'Nutricionista Ana Perez'"
+                    <img :src="nutri" alt="Laptop with 'Nutricionista Ana Perez' page"
                         class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
                     <div
                         class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
