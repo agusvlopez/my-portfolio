@@ -1,13 +1,9 @@
 <script setup>
-import imagen1 from '../assets/imagen1.jpg';
-import imagen2 from '../assets/imagen2.jpg';
-import imagen3 from '../assets/imagen3.jpg';
-import imagen4 from '../assets/imagen4.jpg';
+
 import trainingApp from '../assets/trainingapp-laptop.jpg';
 import traniCeramica from '../assets/traniceramica-laptop.jpg';
 import apiWeather from '../assets/apiweather-mobile.jpg';
-import nutri from '../assets/nutri-laptop.jpg';
-import downArrow from '../assets/down-arrow-blue.png'
+import recipesBySam from '../assets/recipes-by-sam-laptop.jpg';
 import Navbar from './Navbar.vue';
 
 </script>
@@ -36,7 +32,7 @@ import Navbar from './Navbar.vue';
                     <div
                         class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <div>
-                            <h3 class="text-white text-3xl font-bold uppercase">Training App</h3>
+                            <h2 class="text-white text-3xl font-bold uppercase text-center">Training App</h2>
                             <p class="text-white text-lg text-center justify-center">Vue.js 3 - Firebase - Tailwindcss</p>
                         </div>
                     </div>
@@ -49,8 +45,8 @@ import Navbar from './Navbar.vue';
                     <div
                         class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <div>
-                            <h3 class="text-white text-3xl font-bold uppercase">Trani Cerámica</h3>
-                            <p class="text-white text-lg text-center">PHP - Bootstrap</p>
+                            <h2 class="text-white text-3xl font-bold uppercase text-center">Trani Cerámica</h2>
+                            <p class="text-white text-lg text-center">PHP - Bootstrap - MySQL</p>
                         </div>
                     </div>
                 </a>
@@ -62,21 +58,22 @@ import Navbar from './Navbar.vue';
                     <div
                         class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <div>
-                            <h3 class="text-white text-3xl font-bold uppercase">API Weather</h3>
+                            <h2 class="text-white text-3xl font-bold uppercase text-center">API Weather</h2>
                             <p class="text-white text-lg text-center">Javascript - HTML - CSS</p>
                         </div>
                     </div>
                 </a>
             </div>
             <div class="flex items-center justify-center relative group">
-                <a href="https://github.com/agusvlopez/uribe-mercedes_lopez-agustina">
-                    <img :src="nutri" alt="Laptop with 'Nutricionista Ana Perez' page"
+                <a href="https://recipes-by-sam-project.vercel.app/">
+                    <img :src="recipesBySam" alt="Laptop with 'Recipes by Sam' page"
                         class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
                     <div
                         class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <div>
-                            <h3 class="text-white text-3xl font-bold uppercase">Nutricionista Ana Perez</h3>
-                            <p class="text-white text-lg text-center">Laravel - Bootstrap</p>
+                            <h2 class="text-white text-3xl font-bold uppercase text-center">Recipes by Sam</h2>
+                            <p class="text-white text-lg text-center">React.js - Node.js - MongoDB - Firebase - Tailwindcss
+                            </p>
                         </div>
                     </div>
                 </a>
