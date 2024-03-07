@@ -5,13 +5,17 @@ import Navbar from './Navbar.vue';
 </script>
 
 <template>
-    <div class="md:h-screen flex items-center justify-center bg-white textDark max-w-2xl mx-auto">
-        <div class="p-8 mt-16 animate__animated animate__fadeIn">
+    <div class="md:h-screen md:flex md:items-center justify-center bg-white textDark max-w-5xl mx-auto">
+        <div class="mt-16 md:basis-1/4">
+            <img src="../assets/about-bw.jpg" alt="Agustina Lopez" class="rounded-lg">
+        </div>
+        <div class="p-8 mt-16 animate__animated animate__fadeIn md:basis-3/4">
             <h1 class="uppercase text-3xl md:text-6xl mb-4">Hi!</h1>
             <p class="mb-2">I'm <span class="font-bold">Agustina López.</span></p>
             <p>A <span class="font-bold">Web Design and Development</span> student at Da Vinci School in Buenos Aires,
                 where
-                I'm trained about <span class="font-bold">Full Stack development</span> and <span class="font-bold">UX/UI
+                I'm trained about <span class="font-bold">Full Stack development</span> and <span
+                    class="font-bold">UX/UI
                     Design</span>. </p>
             <!-- <p class="mb-2">Como <span class="font-bold">Diseñadora
                     UX/UI</span> y
