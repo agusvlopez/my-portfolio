@@ -7,16 +7,16 @@
         <div class="container mx-auto">
             <div class="flex items-center justify-between textBlue text-2xl gap-4">
                 <!-- Logo o título de la aplicación -->
-                <router-link to="/" class="font-semibold">Agustina Lopez</router-link>
+                <router-link to="/" class="font-semibold navbar--item">Agustina Lopez</router-link>
 
                 <!-- Menú de navegación -->
-                <div class="space-x-4">
+                <div class="space-x-4 navbar--item">
                     <router-link to="/about" class="font-semibold">About</router-link>
                 </div>
-                <div class="space-x-4">
+                <div class="space-x-4 navbar--item">
                     <router-link to="/projects" class="font-semibold">Projects</router-link>
                 </div>
-                <div class="space-x-4">
+                <div class="space-x-4 navbar--item">
                     <router-link to="/contact" class="font-semibold">Contact</router-link>
                 </div>
             </div>

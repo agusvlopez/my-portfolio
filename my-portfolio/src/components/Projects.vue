@@ -12,7 +12,8 @@ import Navbar from './Navbar.vue';
     <section class="relative h-screen bg-white flex items-center justify-center">
         <Navbar />
         <div class="flex-col items-center text-center">
-            <h1 class="uppercase text-5xl md:text-9xl textBlue block"><span class="block text-5xl font-bold text-left">My
+            <h1 class="uppercase text-5xl md:text-9xl textBlue block"><span
+                    class="block text-5xl font-bold text-left">My
                     Latest</span> Projects
             </h1>
             <div class="animate__animated animate__fadeIn">
@@ -30,10 +31,11 @@ import Navbar from './Navbar.vue';
                     <img :src="trainingApp" alt="Laptop with Training App page"
                         class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
                     <div
-                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 project--item">
                         <div>
                             <h2 class="text-white text-3xl font-bold uppercase text-center">Training App</h2>
-                            <p class="text-white text-lg text-center justify-center">Vue.js 3 - Firebase - Tailwindcss</p>
+                            <p class="text-white text-lg text-center justify-center">Vue.js 3 - Firebase - Tailwindcss
+                            </p>
                         </div>
                     </div>
                 </a>
@@ -43,7 +45,7 @@ import Navbar from './Navbar.vue';
                     <img :src="traniCeramica" alt="Laptop with Trani Cerámica page"
                         class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
                     <div
-                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 project--item">
                         <div>
                             <h2 class="text-white text-3xl font-bold uppercase text-center">Trani Cerámica</h2>
                             <p class="text-white text-lg text-center">PHP - Bootstrap - MySQL</p>
@@ -56,7 +58,7 @@ import Navbar from './Navbar.vue';
                     <img :src="apiWeather" alt="Mobile with Api Weather page"
                         class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
                     <div
-                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 project--item">
                         <div>
                             <h2 class="text-white text-3xl font-bold uppercase text-center">API Weather</h2>
                             <p class="text-white text-lg text-center">Javascript - HTML - CSS</p>
@@ -69,10 +71,11 @@ import Navbar from './Navbar.vue';
                     <img :src="recipesBySam" alt="Laptop with 'Recipes by Sam' page"
                         class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
                     <div
-                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 project--item">
                         <div>
                             <h2 class="text-white text-3xl font-bold uppercase text-center">Recipes by Sam</h2>
-                            <p class="text-white text-lg text-center">React.js - Node.js - MongoDB - Firebase - Tailwindcss
+                            <p class="text-white text-lg text-center">React.js - Node.js - MongoDB - Firebase -
+                                Tailwindcss
                             </p>
                         </div>
                     </div>
