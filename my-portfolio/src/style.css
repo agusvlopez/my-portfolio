@@ -132,6 +132,24 @@ p {
   transition: all 0.3s ease;
 }
 
+.animated-image {
+  animation: roundAnimation 5s forwards;
+}
+
+@keyframes roundAnimation {
+  0% {
+    border-radius: 1rem;
+  }
+
+  50% {
+    border-radius: 50%;
+  }
+
+  100% {
+    border-radius: 1rem;
+  }
+}
+
 @media (min-width: 576px) {
   p {
     font-size: 1.2rem;
