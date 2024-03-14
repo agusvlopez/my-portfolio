@@ -30,6 +30,13 @@ import Projects from '../components/Projects.vue';
                     <span
                         class="absolute bottom-0 left-0 right-0 h-0.5 backgroundPink transform origin-left scale-x-50 group-hover:scale-x-100 transition-transform duration-300"></span>
                 </a>
+                <a href="https://www.figma.com/@agustinalopez" class="textBlue relative group">
+                    Figma
+                    <span
+                        class="iconArrowRight inline-block align-middle opacity-0 group-hover:opacity-100 textBlue transition-opacity duration-300"></span>
+                    <span
+                        class="absolute bottom-0 left-0 right-0 h-0.5 backgroundPink transform origin-left scale-x-50 group-hover:scale-x-100 transition-transform duration-300"></span>
+                </a>
             </div>
             <p class="pt-6 font-semibold textBlue animate__animated animate__fadeIn">Contact: agusvlopez@gmail.com</p>
         </div>
