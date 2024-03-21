@@ -1,5 +1,5 @@
 <template>
-    <div class="md:h-screen md:flex md:items-center justify-center bg-white textDark max-w-5xl mx-auto">
+    <div class="md:h-screen md:flex md:items-center justify-center bg-white textDark max-w-5xl mx-auto p-8">
         <div class="mt-16 md:basis-1/4">
             <img src="../assets/about-bw.jpg" alt="Agustina Lopez" class="rounded-lg animated-image">
         </div>
