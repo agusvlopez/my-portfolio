@@ -1,23 +1,48 @@
 <script setup>
+import { ref } from 'vue';
 
+const isMenuOpen = ref(false);
+
+const toggleMenu = () => {
+    isMenuOpen.value = !isMenuOpen.value;
+};
+
+const toggleLink = () => {
+    isMenuOpen.value = !isMenuOpen.value;
+};
 </script>
 
 <template>
-    <nav class="p-4 absolute top-0 left-0 w-full">
-        <div class="container mx-auto">
-            <div class="flex items-center justify-between textBlue text-2xl gap-4">
-                <!-- Logo o título de la aplicación -->
-                <router-link to="/" class="font-semibold navbar--item">Agustina Lopez</router-link>
+    <nav class="p-4 bg-white shadow lg:shadow-none fixed w-full top-0 left-0 z-50">
+        <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between">
+            <!-- Título -->
+            <div class="container mx-auto flex justify-between items-center">
+                <div>
+                    <router-link to="/" class="text-2xl font-semibold text-blue-800">Agustina Lopez</router-link>
+                </div>
 
-                <!-- Menú de navegación -->
-                <div class="space-x-4 navbar--item">
-                    <router-link to="/about" class="font-semibold">About</router-link>
+                <!-- Botón de menú hamburguesa (visible en dispositivos móviles) -->
+                <div>
+                    <button @click="toggleMenu" class="lg:hidden focus:outline-none">
+                        <svg class="w-6 h-6 text-blue-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16">
+                            </path>
+                        </svg>
+                    </button>
                 </div>
-                <div class="space-x-4 navbar--item">
-                    <router-link to="/projects" class="font-semibold">Projects</router-link>
-                </div>
-                <div class="space-x-4 navbar--item">
-                    <router-link to="/contact" class="font-semibold">Contact</router-link>
+            </div>
+            <!-- Menú de navegación -->
+            <div :class="{ 'block': isMenuOpen, 'hidden': !isMenuOpen }"
+                class="w-full lg:w-auto lg:flex lg:items-center pt-2">
+                <div class="flex flex-col lg:flex-row lg:items-center w-full lg:w-auto">
+                    <router-link to="/about" @click="toggleLink"
+                        class="block px-2 py-1 font-semibold text-blue-800 hover:text-blue-600">About</router-link>
+                    <router-link to="/projects" @click="toggleLink"
+                        class="block px-2 py-1 font-semibold text-blue-800 hover:text-blue-600">Projects</router-link>
+                    <router-link to="/contact" @click="toggleLink"
+                        class="block px-2 py-1 font-semibold text-blue-800 hover:text-blue-600">Contact</router-link>
                 </div>
             </div>
         </div>

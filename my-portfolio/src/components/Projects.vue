@@ -18,10 +18,10 @@ import Navbar from './Navbar.vue';
                     class="block text-5xl font-bold text-left">My
                     Latest</span> Projects
             </h1>
-            <div class="animate__animated animate__fadeIn">
+            <div class="animate__animated animate__fadeIn mt-4 lg:mt-0">
                 <a href="#allProjects" class="cursor-pointer">
-                    <span class="iconArrowDown inline-block absolute bottom-8 right-8 transition"></span>
-                    <!-- <img :src="downArrow" alt="" class="w-14 pt-8 mx-auto absolute bottom-8 right-8"> -->
+                    <span
+                        class="iconArrowDown inline-block p-2 lg:p-0 lg:absolute lg:bottom-8 lg:right-8 transition"></span>
                 </a>
             </div>
         </div>
@@ -29,13 +29,13 @@ import Navbar from './Navbar.vue';
 
     <div id="allProjects" class="min-h-screen flex column items-center justify-center">
 
-        <div class="grid grid-cols-2 grid-rows-2 gap-2 mt-2 mb-2">
+        <div class="lg:grid lg:grid-cols-2 lg:grid-rows-2 gap-2 mt-2 mb-2">
             <div class="flex items-center justify-center relative group">
-                <a href="https://www.heineken.com/ar/es/fanwedding">
+                <a href="https://www.heineken.com/ar/es/fanwedding" target="_blank">
                     <img :src="fanWeddingHeineken" alt="Fan Wedding - Heineken"
                         class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
                     <div
-                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 project--item">
+                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-80 md:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300 project--item">
                         <div>
                             <p class="text-white text-lg text-center font-semibold justify-center">PROFESSIONAL
                             </p>
@@ -50,11 +50,11 @@ import Navbar from './Navbar.vue';
                 </a>
             </div>
             <div class="flex items-center justify-center relative group">
-                <a href="http://plusbelle.com.ar/">
+                <a href="http://plusbelle.com.ar/" target="_blank">
                     <img :src="plusbelle" alt="Plusbelle"
                         class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
                     <div
-                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 project--item">
+                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-80 md:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300 project--item">
                         <div>
                             <p class="text-white text-lg text-center font-semibold justify-center">PROFESSIONAL
                             </p>
@@ -68,11 +68,11 @@ import Navbar from './Navbar.vue';
                 </a>
             </div>
             <div class="flex items-center justify-center relative group">
-                <a href="https://training-app-orpin.vercel.app/#/">
+                <a href="https://training-app-orpin.vercel.app/#/" target="_blank">
                     <img :src="trainingApp" alt="Laptop with Training App page"
                         class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
                     <div
-                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 project--item">
+                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-80 md:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300 project--item">
                         <div>
                             <p class="text-white text-xl text-center font-semibold justify-center">PERSONAL
                             </p>
@@ -84,11 +84,11 @@ import Navbar from './Navbar.vue';
                 </a>
             </div>
             <div class="flex items-center justify-center relative group">
-                <a href="https://trani-ceramica.000webhostapp.com/">
+                <a href="https://trani-ceramica.000webhostapp.com/" target="_blank">
                     <img :src="traniCeramica" alt="Laptop with Trani Cerámica page"
                         class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
                     <div
-                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 project--item">
+                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-80 md:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300 project--item">
                         <div>
                             <p class="text-white text-xl text-center font-semibold justify-center">PERSONAL
                             </p>
@@ -99,11 +99,11 @@ import Navbar from './Navbar.vue';
                 </a>
             </div>
             <div class="flex items-center justify-center relative group">
-                <a href="https://api-weather-theta.vercel.app/">
+                <a href="https://api-weather-theta.vercel.app/" target="_blank">
                     <img :src="apiWeather" alt="Mobile with Api Weather page"
                         class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
                     <div
-                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 project--item">
+                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-80 md:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300 project--item">
                         <div>
                             <p class="text-white text-xl text-center font-semibold justify-center">PERSONAL
                             </p>
@@ -114,11 +114,11 @@ import Navbar from './Navbar.vue';
                 </a>
             </div>
             <div class="flex items-center justify-center relative group">
-                <a href="https://recipes-by-sam-project.vercel.app/">
+                <a href="https://recipes-by-sam-project.vercel.app/" target="_blank">
                     <img :src="recipesBySam" alt="Laptop with 'Recipes by Sam' page"
                         class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
                     <div
-                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 project--item">
+                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-80 md:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300 project--item">
                         <div>
                             <p class="text-white text-xl text-center font-semibold justify-center">PERSONAL
                             </p>
