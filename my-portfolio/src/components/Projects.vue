@@ -80,7 +80,7 @@ import Navbar from './Navbar.vue';
                             </p>
                             <h2 class="text-white text-3xl font-bold uppercase text-center">Fan Wedding - Heineken</h2>
                             <p class="text-white text-lg text-center justify-center mb-2">Mails, forms and database
-                                management.
+                                management. Full Stack development.
                             </p>
                             <p class="text-white text-lg text-center justify-center">MySQL - Laravel
                             </p>
