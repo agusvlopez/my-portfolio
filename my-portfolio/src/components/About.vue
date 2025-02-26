@@ -19,7 +19,7 @@
                     always looking for new opportunities</span> to grow in my professional path.</p>
             <p>When I'm not designing or coding, I'm playing tennis or taking a walk for more inspiration.</p>
             <div class="pt-4 flex">
-                <a href="cv/cv_english.pdf" target="_blank"
+                <a href="cv/cv.pdf" target="_blank"
                     class="textBlue font-bold text-lg inline-block hover:translate-y-1 transition-transform">
                     Download Curriculum
                     <span class="iconDownload inline-block"></span>
