@@ -8,16 +8,15 @@ import plusbelle from '../assets/plusbelle.png';
 import zorro from '../assets/zorro.png';
 import oreo from '../assets/oreo.png';
 import okebon from '../assets/okebon.png';
-import Navbar from './Navbar.vue';
+import Navbar from '../components/Navbar.vue';
 
 </script>
 
 <template>
-    <section class="relative h-screen bg-white flex items-center justify-center">
+    <section class="relative h-screen  flex items-center justify-center">
         <Navbar />
         <div class="flex-col items-center text-center">
-            <h1 class="uppercase text-5xl md:text-9xl textBlue block"><span
-                    class="block text-5xl font-bold text-left">My
+            <h1 class="uppercase text-5xl md:text-9xl block"><span class="block text-5xl font-bold text-left">My
                     Latest</span> Projects
             </h1>
             <div class="animate__animated animate__fadeIn mt-4 lg:mt-0">
@@ -105,6 +104,23 @@ import Navbar from './Navbar.vue';
                 </a>
             </div>
             <div class="flex items-center justify-center relative group">
+                <a href="https://recipes-by-sam-project.vercel.app/" target="_blank">
+                    <img :src="recipesBySam" alt="Laptop with 'Recipes by Sam' page"
+                        class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
+                    <div
+                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-80 md:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300 project--item">
+                        <div>
+                            <p class="text-white text-xl text-center font-semibold justify-center">PERSONAL
+                            </p>
+                            <h2 class="text-white text-3xl font-bold uppercase text-center">Recipes by Sam</h2>
+                            <p class="text-white text-lg text-center">React.js - Node.js - MongoDB - Firebase -
+                                Tailwindcss
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="flex items-center justify-center relative group">
                 <a href="https://training-app-orpin.vercel.app/#/" target="_blank">
                     <img :src="trainingApp" alt="Laptop with Training App page"
                         class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
@@ -146,23 +162,6 @@ import Navbar from './Navbar.vue';
                             </p>
                             <h2 class="text-white text-3xl font-bold uppercase text-center">API Weather</h2>
                             <p class="text-white text-lg text-center">Javascript - HTML - CSS</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="flex items-center justify-center relative group">
-                <a href="https://recipes-by-sam-project.vercel.app/" target="_blank">
-                    <img :src="recipesBySam" alt="Laptop with 'Recipes by Sam' page"
-                        class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
-                    <div
-                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-80 md:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300 project--item">
-                        <div>
-                            <p class="text-white text-xl text-center font-semibold justify-center">PERSONAL
-                            </p>
-                            <h2 class="text-white text-3xl font-bold uppercase text-center">Recipes by Sam</h2>
-                            <p class="text-white text-lg text-center">React.js - Node.js - MongoDB - Firebase -
-                                Tailwindcss
-                            </p>
                         </div>
                     </div>
                 </a>
