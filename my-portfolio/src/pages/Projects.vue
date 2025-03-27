@@ -1,7 +1,7 @@
 <script setup>
 
 import trainingApp from '../assets/trainingapp-laptop.jpg';
-import traniCeramica from '../assets/traniceramica-laptop.jpg';
+import flowBoard from '../assets/flow-board.jpg';
 import apiWeather from '../assets/apiweather-mobile.jpg';
 import recipesBySam from '../assets/recipes-by-sam-laptop.jpg';
 import plusbelle from '../assets/plusbelle.png';
@@ -137,16 +137,16 @@ import Navbar from '../components/Navbar.vue';
                 </a>
             </div>
             <div class="flex items-center justify-center relative group">
-                <a href="https://trani-ceramica.000webhostapp.com/" target="_blank">
-                    <img :src="traniCeramica" alt="Laptop with Trani Cerámica page"
+                <a href="https://flowboard-avl.netlify.app/" target="_blank">
+                    <img :src="flowBoard" alt="Laptop with Trani Cerámica page"
                         class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
                     <div
                         class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-80 md:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300 project--item">
                         <div>
                             <p class="text-white text-xl text-center font-semibold justify-center">PERSONAL
                             </p>
-                            <h2 class="text-white text-3xl font-bold uppercase text-center">Trani Cerámica</h2>
-                            <p class="text-white text-lg text-center">PHP - Bootstrap - MySQL</p>
+                            <h2 class="text-white text-3xl font-bold uppercase text-center">Flow Board</h2>
+                            <p class="text-white text-lg text-center">React - Typescrip</p>
                         </div>
                     </div>
                 </a>
