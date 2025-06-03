@@ -1,10 +1,10 @@
 <template>
     <div class="md:h-screen md:flex md:items-center justify-center max-w-5xl mx-auto p-8">
         <div class="hidden md:block mt-16 md:basis-1/2">
-            <img src="../assets/about-2.jpg" alt="Agustina Lopez" class="rounded-lg animated-image">
+            <img src="/about.jpg" alt="Agustina Lopez" class="rounded-lg animated-image">
         </div>
         <div class="md:hidden mt-16 md:basis-1/4">
-            <img src="../assets/about-mobile.jpg" alt="Agustina Lopez" class="rounded-lg animated-image">
+            <img src="/about.jpg" alt="Agustina Lopez" class="rounded-lg animated-image">
         </div>
         <div class="p-8 md:mt-16 animate__animated animate__fadeIn md:basis-3/4">
             <h1 class="uppercase text-3xl md:text-6xl mb-4">Hi!</h1>
