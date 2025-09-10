@@ -25,7 +25,7 @@
                 </p>
 
                 <p>
-                    Outside of coding and design, I’m also an actress, which has enhanced my creativity and
+                    Outside of coding and design, I’m an actress, which has enhanced my creativity and
                     communication skills. I also enjoy playing tennis and taking walks to stay inspired.
                 </p>
             </div>

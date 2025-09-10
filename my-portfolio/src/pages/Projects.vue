@@ -136,36 +136,6 @@ import Navbar from '../components/Navbar.vue';
                     </div>
                 </a>
             </div>
-            <div class="flex items-center justify-center relative group">
-                <a href="https://flowboard-avl.netlify.app/" target="_blank">
-                    <img :src="flowBoard" alt="Laptop with Trani Cerámica page"
-                        class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
-                    <div
-                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-80 md:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300 project--item">
-                        <div>
-                            <p class="text-white text-xl text-center font-semibold justify-center">PERSONAL
-                            </p>
-                            <h2 class="text-white text-3xl font-bold uppercase text-center">Flow Board</h2>
-                            <p class="text-white text-lg text-center">React - Typescrip</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="flex items-center justify-center relative group">
-                <a href="https://api-weather-theta.vercel.app/" target="_blank">
-                    <img :src="apiWeather" alt="Mobile with Api Weather page"
-                        class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
-                    <div
-                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-80 md:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300 project--item">
-                        <div>
-                            <p class="text-white text-xl text-center font-semibold justify-center">PERSONAL
-                            </p>
-                            <h2 class="text-white text-3xl font-bold uppercase text-center">API Weather</h2>
-                            <p class="text-white text-lg text-center">Javascript - HTML - CSS</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
         </div>
     </div>
 </template>
