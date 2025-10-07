@@ -44,6 +44,19 @@ const toggleLink = () => {
                         class="block px-2 py-1 text-[#f5f5f5] hover:text-[#ffc4fd] transition-colors">Projects</router-link>
                     <router-link to="/contact" @click="toggleLink"
                         class="block px-2 py-1 text-[#f5f5f5] hover:text-[#ffc4fd] transition-colors">Contact</router-link>
+                    <!-- botones de idioma-->
+                    <div class="flex space-x-2 mt-2 lg:mt-0 lg:ml-6">
+                        <button @click="$i18n.locale = 'es'"
+                            :class="$i18n.locale === 'es' ? 'bg-[#ffc4fd]' : 'bg-[#f5f5f5]'"
+                            class="px-2 py-1 text-[#0e0e0e] rounded hover:bg-[#ffc4fd] transition-colors">
+                            ES
+                        </button>
+                        <button @click="$i18n.locale = 'en'"
+                            :class="$i18n.locale === 'en' ? 'bg-[#ffc4fd]' : 'bg-[#f5f5f5]'"
+                            class="px-2 py-1 text-[#0e0e0e] rounded hover:bg-[#ffc4fd] transition-colors">
+                            EN
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

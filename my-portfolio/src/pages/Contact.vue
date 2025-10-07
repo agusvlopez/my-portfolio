@@ -1,8 +1,8 @@
 <template>
     <div class="md:h-screen mt-[100px] lg:mt-0 p-6 flex flex-col items-center justify-center max-w-3xl mx-auto">
 
-        <h1 class="uppercase text-3xl md:text-6xl mb-4">Contact</h1>
-        <p>If you are interested in my profile, drop me a message!</p>
+        <h1 class="uppercase text-3xl md:text-6xl mb-4">{{ $t('contact.title') }}</h1>
+        <p>{{ $t('contact.description') }}</p>
 
         <div class="mt-4 flex space-x-4">
             <a href="https://www.linkedin.com/in/agustina-victoria-lopez/" target="_blank"

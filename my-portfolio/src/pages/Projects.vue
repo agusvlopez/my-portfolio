@@ -16,8 +16,9 @@ import Navbar from '../components/Navbar.vue';
     <section class="relative h-screen  flex items-center justify-center">
         <Navbar />
         <div class="flex-col items-center text-center">
-            <h1 class="uppercase text-5xl md:text-9xl block"><span class="block text-5xl font-bold text-left">My
-                    Latest</span> Projects
+            <h1 class="uppercase text-5xl md:text-9xl block">
+                <span class="block text-5xl font-bold text-left">{{ $t('projects.title1') }}</span> 
+                {{ $t('projects.title2') }}
             </h1>
             <div class="animate__animated animate__fadeIn mt-4 lg:mt-0">
                 <a href="#allProjects" class="cursor-pointer">
@@ -37,10 +38,10 @@ import Navbar from '../components/Navbar.vue';
                     <div
                         class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-80 md:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300 project--item">
                         <div>
-                            <p class="text-white text-lg text-center font-semibold justify-center">PROFESSIONAL
+                            <p class="text-white text-lg text-center font-semibold justify-center uppercase">{{ $t('projects.professional') }}
                             </p>
                             <h2 class="text-white text-3xl font-bold uppercase text-center">Okebon</h2>
-                            <p class="text-white text-lg text-center justify-center mb-2">Front End development.
+                            <p class="text-white text-lg text-center justify-center mb-2">{{ $t('projects.frontend') }}
                             </p>
                             <p class="text-white text-lg text-center justify-center">React.js - Tailwindcss - SASS
                             </p>
@@ -55,10 +56,10 @@ import Navbar from '../components/Navbar.vue';
                     <div
                         class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-80 md:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300 project--item">
                         <div>
-                            <p class="text-white text-lg text-center font-semibold justify-center">PROFESSIONAL
+                            <p class="text-white text-lg text-center font-semibold justify-center uppercase">{{ $t('projects.professional') }}
                             </p>
                             <h2 class="text-white text-3xl font-bold uppercase text-center">Zorro</h2>
-                            <p class="text-white text-lg text-center justify-center mb-2">Front End development.
+                            <p class="text-white text-lg text-center justify-center mb-2">{{ $t('projects.frontend') }}
                             </p>
                             <p class="text-white text-lg text-center justify-center">React.js - Tailwindcss - SASS
                             </p>
@@ -73,10 +74,10 @@ import Navbar from '../components/Navbar.vue';
                     <div
                         class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-80 md:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300 project--item">
                         <div>
-                            <p class="text-white text-lg text-center font-semibold justify-center">PROFESSIONAL
+                            <p class="text-white text-lg text-center font-semibold justify-center uppercase">{{ $t('projects.professional') }}
                             </p>
                             <h2 class="text-white text-3xl font-bold uppercase text-center">Oreo</h2>
-                            <p class="text-white text-lg text-center justify-center mb-2">Front End development.
+                            <p class="text-white text-lg text-center justify-center mb-2">{{ $t('projects.frontend') }}
                             </p>
                             <p class="text-white text-lg text-center justify-center">React.js - Tailwindcss
                             </p>
@@ -92,10 +93,10 @@ import Navbar from '../components/Navbar.vue';
                     <div
                         class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-80 md:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300 project--item">
                         <div>
-                            <p class="text-white text-lg text-center font-semibold justify-center">PROFESSIONAL
+                            <p class="text-white text-lg text-center font-semibold justify-center uppercase">{{ $t('projects.professional') }}
                             </p>
                             <h2 class="text-white text-3xl font-bold uppercase text-center">Plusbelle</h2>
-                            <p class="text-white text-lg text-center justify-center mb-2">Front End development.
+                            <p class="text-white text-lg text-center justify-center mb-2">{{ $t('projects.frontend') }}
                             </p>
                             <p class="text-white text-lg text-center justify-center">React.js - Tailwindcss - SASS
                             </p>
@@ -110,7 +111,7 @@ import Navbar from '../components/Navbar.vue';
                     <div
                         class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-80 md:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300 project--item">
                         <div>
-                            <p class="text-white text-xl text-center font-semibold justify-center">PERSONAL
+                            <p class="text-white text-xl text-center font-semibold justify-center uppercase">PERSONAL
                             </p>
                             <h2 class="text-white text-3xl font-bold uppercase text-center">Recipes by Sam</h2>
                             <p class="text-white text-lg text-center">React.js - Node.js - MongoDB - Firebase -
@@ -127,7 +128,7 @@ import Navbar from '../components/Navbar.vue';
                     <div
                         class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-80 md:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300 project--item">
                         <div>
-                            <p class="text-white text-xl text-center font-semibold justify-center">PERSONAL
+                            <p class="text-white text-xl text-center font-semibold justify-center uppercase">PERSONAL
                             </p>
                             <h2 class="text-white text-3xl font-bold uppercase text-center">Training App</h2>
                             <p class="text-white text-lg text-center justify-center">Vue.js 3 - Firebase - Tailwindcss

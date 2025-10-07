@@ -1,0 +1,39 @@
+{
+  "home": {
+    "title1": "I'm a",
+    "title2": "Full Stack Developer",
+    "contact": "Contact"
+  },
+  "projects": {
+    "title1": "My latest",
+    "title2": "Projects",
+    "professional": "Professional",
+    "frontend": "Front End development."
+  },
+  "contact": {
+    "title": "Contact me",
+    "description": "If you are interested in my profile, drop me a message!"
+  },
+  "about": {
+    "title": "Hi!",
+    "name": "My name is Agustina Lopez",
+    "intro": "I am a",
+    "developer": "software developer",
+    "with": "with",
+    "experience": "2 years of professional experience",
+    "backed": "backed by",
+    "study": "3 years of dedicated study",
+    "and": "and",
+    "practice": "hands-on practice",
+    "including": "including knowledge of",
+    "design": "UX/UI design",
+    
+    "paragraph2": "I'm always eager to learn, and my social skills enhance team communication and collaboration.",
+    "eager": "eager to learn",
+    "social": "social skills",
+    
+    "paragraph3": "Outside of coding and design, I'm an actress, which has enhanced my creativity and communication skills. I also enjoy playing tennis and taking walks to stay inspired.",
+
+    "resume": "Download Resume"
+  }
+}
