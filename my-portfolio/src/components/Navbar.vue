@@ -39,11 +39,11 @@ const toggleLink = () => {
                 class="w-full lg:w-auto lg:flex lg:items-center pt-2">
                 <div class="flex flex-col lg:flex-row lg:items-center w-full lg:w-auto text-lg">
                     <router-link to="/about" @click="toggleLink"
-                        class="block px-2 py-1 text-[#f5f5f5] hover:text-[#ffc4fd] transition-colors">About</router-link>
+                        class="block px-2 py-1 text-[#f5f5f5] hover:text-[#ffc4fd] transition-colors flex-shrink-0">{{ $t('menu.about') }}</router-link>
                     <router-link to="/projects" @click="toggleLink"
-                        class="block px-2 py-1 text-[#f5f5f5] hover:text-[#ffc4fd] transition-colors">Projects</router-link>
+                        class="block px-2 py-1 text-[#f5f5f5] hover:text-[#ffc4fd] transition-colors flex-shrink-0">{{ $t('menu.projects') }}</router-link>
                     <router-link to="/contact" @click="toggleLink"
-                        class="block px-2 py-1 text-[#f5f5f5] hover:text-[#ffc4fd] transition-colors">Contact</router-link>
+                        class="block px-2 py-1 text-[#f5f5f5] hover:text-[#ffc4fd] transition-colors flex-shrink-0">{{ $t('menu.contact') }}</router-link>
                     <!-- botones de idioma-->
                     <div class="flex space-x-2 mt-2 lg:mt-0 lg:ml-6">
                         <button @click="$i18n.locale = 'es'"
