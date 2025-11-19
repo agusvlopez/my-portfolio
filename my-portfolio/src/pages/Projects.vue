@@ -1,13 +1,13 @@
 <script setup>
 
 import trainingApp from '../assets/trainingapp-laptop.jpg';
-import flowBoard from '../assets/flow-board.jpg';
-import apiWeather from '../assets/apiweather-mobile.jpg';
-import recipesBySam from '../assets/recipes-by-sam-laptop.jpg';
-import plusbelle from '../assets/plusbelle.png';
-import zorro from '../assets/zorro.png';
-import oreo from '../assets/oreo.png';
-import okebon from '../assets/okebon.png';
+import recipesBySam from '../assets/recipes-by-sam.webp';
+import plusbelle from '../assets/plusbelle.webp';
+import zorro from '../assets/zorro.webp';
+import oreo from '../assets/oreo.webp';
+import okebon from '../assets/okebon.webp';
+import canelo from '../assets/canelo.webp';
+import ariel from '../assets/ariel.webp'
 import Navbar from '../components/Navbar.vue';
 
 </script>
@@ -30,11 +30,28 @@ import Navbar from '../components/Navbar.vue';
     </section>
 
     <div id="allProjects" class="min-h-screen flex column items-center justify-center">
-        <div class="lg:grid lg:grid-cols-2 lg:grid-rows-2 gap-2 mt-2 mb-2">
+        <div class="lg:grid lg:grid-cols-2 lg:grid-rows-1 gap-2 mt-2 mb-2">
+            <div class="flex items-center justify-center relative group">
+                <a href="https://canelo.com.ar/" target="_blank">
+                    <img :src="canelo" alt="Canelo website"
+                        class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
+                    <div
+                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-80 md:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300 project--item">
+                        <div>
+                            <p class="text-white text-lg text-center font-semibold justify-center uppercase">{{ $t('projects.professional') }}
+                            </p>
+                            <h2 class="text-white text-3xl font-bold uppercase text-center">Canelo</h2>
+                            <p class="text-white text-lg text-center justify-center mb-2">{{ $t('projects.frontend') }}
+                            </p>
+                            <p class="text-white text-lg text-center justify-center">React.js - Tailwindcss</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
             <div class="flex items-center justify-center relative group">
                 <a href="https://okebon.com.ar" target="_blank">
                     <img :src="okebon" alt="Okebon website"
-                        class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
+                        class="w-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
                     <div
                         class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-80 md:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300 project--item">
                         <div>
@@ -68,6 +85,24 @@ import Navbar from '../components/Navbar.vue';
                 </a>
             </div>
             <div class="flex items-center justify-center relative group">
+                <a href="http://plusbelle.com.ar/" target="_blank">
+                    <img :src="plusbelle" alt="Plusbelle"
+                        class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
+                    <div
+                        class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-80 md:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300 project--item">
+                        <div>
+                            <p class="text-white text-lg text-center font-semibold justify-center uppercase">{{ $t('projects.professional') }}
+                            </p>
+                            <h2 class="text-white text-3xl font-bold uppercase text-center">Plusbelle</h2>
+                            <p class="text-white text-lg text-center justify-center mb-2">{{ $t('projects.frontend') }}
+                            </p>
+                            <p class="text-white text-lg text-center justify-center">React.js - Tailwindcss - SASS
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="flex items-center justify-center relative group">
                 <a href="http://oreo.com.ar/" target="_blank">
                     <img :src="oreo" alt="Oreo website"
                         class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
@@ -85,21 +120,19 @@ import Navbar from '../components/Navbar.vue';
                     </div>
                 </a>
             </div>
-
             <div class="flex items-center justify-center relative group">
-                <a href="http://plusbelle.com.ar/" target="_blank">
-                    <img :src="plusbelle" alt="Plusbelle"
+                <a href="https://arielargentina.com.ar/" target="_blank">
+                    <img :src="ariel" alt="Ariel website"
                         class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
                     <div
                         class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-80 md:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300 project--item">
                         <div>
-                            <p class="text-white text-lg text-center font-semibold justify-center uppercase">{{ $t('projects.professional') }}
+                            <p class="text-white text-xl text-center font-semibold justify-center uppercase">PROFESSIONAL
                             </p>
-                            <h2 class="text-white text-3xl font-bold uppercase text-center">Plusbelle</h2>
+                            <h2 class="text-white text-3xl font-bold uppercase text-center">Ariel</h2>
                             <p class="text-white text-lg text-center justify-center mb-2">{{ $t('projects.frontend') }}
                             </p>
-                            <p class="text-white text-lg text-center justify-center">React.js - Tailwindcss - SASS
-                            </p>
+                            <p class="text-white text-lg text-center justify-center">Astro - Tailwindcss</p>
                         </div>
                     </div>
                 </a>
