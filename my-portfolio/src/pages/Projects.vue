@@ -7,7 +7,8 @@ import zorro from '../assets/zorro.webp';
 import oreo from '../assets/oreo.webp';
 import okebon from '../assets/okebon.webp';
 import canelo from '../assets/canelo.webp';
-import ariel from '../assets/ariel.webp'
+import ariel from '../assets/ariel.webp';
+import wild from '../assets/wild.png';
 import Navbar from '../components/Navbar.vue';
 
 </script>
@@ -32,15 +33,15 @@ import Navbar from '../components/Navbar.vue';
     <div id="allProjects" class="min-h-screen flex column items-center justify-center">
         <div class="lg:grid lg:grid-cols-2 lg:grid-rows-1 gap-2 mt-2 mb-2">
             <div class="flex items-center justify-center relative group">
-                <a href="https://canelo.com.ar/" target="_blank">
-                    <img :src="canelo" alt="Canelo website"
+                <a href="https://wildpets.com.ar/" target="_blank">
+                    <img :src="wild" alt="Wild Pets website"
                         class="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-300" />
                     <div
                         class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 opacity-80 md:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300 project--item">
                         <div>
                             <p class="text-white text-lg text-center font-semibold justify-center uppercase">{{ $t('projects.professional') }}
                             </p>
-                            <h2 class="text-white text-3xl font-bold uppercase text-center">Canelo</h2>
+                            <h2 class="text-white text-3xl font-bold uppercase text-center">Wild Pets</h2>
                             <p class="text-white text-lg text-center justify-center mb-2">{{ $t('projects.frontend') }}
                             </p>
                             <p class="text-white text-lg text-center justify-center">React.js - Tailwindcss</p>
